@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ჰოროსკოპი</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body >
+    <div  style="margin-top: 100px;">
+    <h1 style="color: white;">ჰოროსკოპის გენერატორი</h1>
+    <form id="horoscopeForm">
+        <label for="horoscope" style="color: white;">ჩაწერე შენი ჰოროსკოპი:</label>
+        <select id="horoscope" required>
+            <option value="" disabled selected>აირჩიე შენი ჰოროსკოპი</option>
+            <option value="Aries">ვერძი</option>
+            <option value="Taurus">კურო</option>
+            <option value="Gemini">ტყუპები</option>
+            <option value="Cancer">კირჩხები</option>
+            <option value="Leo">ლომი</option>
+            <option value="Virgo">ქალწული</option>
+            <option value="Libra">სასწორი</option>
+            <option value="Scorpio">მორიელი</option>
+            <option value="Sagittarius">მშვილდოსანი</option>
+            <option value="Capricorn">თხის რქა</option>
+            <option value="Aquarius">მერწყული</option>
+            <option value="Pisces">თევზი</option>
+        </select>
+        <button type="submit">დადასტურება</button>
+    </form>
+    <div style="color: white;" id="prediction"></div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
